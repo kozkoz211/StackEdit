@@ -8,8 +8,6 @@ select all keys from bdb
 
 ### UML diagrams
 
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
 ```mermaid
 sequenceDiagram
 Alice ->> Bob: Hello Bob, how are you?
@@ -22,15 +20,6 @@ Bob-->Alice: Checking with John...
 Alice->John: Yes... John, how are you?
 ```
 
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQxMjU3ODhdfQ==
+eyJoaXN0b3J5IjpbMTg3OTY2NjE3NCwtMTMzNDEyNTc4OF19
 -->
