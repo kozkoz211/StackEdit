@@ -10,7 +10,7 @@ select all keys from bdb
 
 ```mermaid
 sequenceDiagram
-client ->> server: getKeys()
+client ->> server: getKeys(int position, int size)
 
 Note right of client: position is zero-origin
 
@@ -26,5 +26,5 @@ server ->> client:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODU3MTIwMiwtMTgyODgwNDE1OV19
+eyJoaXN0b3J5IjpbMTQ3OTE1NzY5NCwtMTgyODgwNDE1OV19
 -->
