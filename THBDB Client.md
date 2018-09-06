@@ -10,8 +10,8 @@ select all keys from bdb
 
 ```mermaid
 sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
+client ->> server: getKeys(
+server-->> bdb: How about you John?
 Bob--x Alice: I am good thanks!
 Bob-x John: I am good thanks!
 Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
@@ -21,5 +21,6 @@ Alice->John: Yes... John, how are you?
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTY2NjE3NCwtMTMzNDEyNTc4OF19
+eyJoaXN0b3J5IjpbLTE0MzMxMTE1ODEsLTEzMzQxMjU3ODhdfQ
+==
 -->
